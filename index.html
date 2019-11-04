@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Yalisama </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="descripcion" content="viaja mas">
+    <meta name="keywords" content="diseño web,posicionamiento web">
+    <meta name="author" content="ingeniros">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet"  href="fonts.css">
+    <link rel="icon" href="img/yalisama.png">
+</head>
+
+<body>
+    
+    <header>
+        
+
+              
+        
+        
+
+            <div id="marca">
+                    <img src="img/yalisama.png"
+                    title="yamilisa"
+                    >
+                  </div>
+        <nav class="contenedor">
+                
+            <ul class="menu">
+                <li> <a href="#">Inicio</a> </li>
+                <li> <a href="#">Menu</a>
+                <ul class="submenu">
+                    <li> <a href="#">Rutas</a>
+                    <li> <a href="#">Fuera</a>
+                </ul>
+                
+                </li>
+                <li> <a href="#">Nosotros</a> </li>
+                <li> <a href="#">Promociones</a> </li>
+            </ul>
+        </nav>
+
+        
+
+    </header>
+    <div class="main">
+        <div class="slides">
+            <img src="http://lorempixel.com/1600/900/city/1" alt="">
+            <img src="http://lorempixel.com/1600/900/city/2" alt="">
+            <img src="http://lorempixel.com/1600/900/city/3" alt="">
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+        $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+    </script>
+
+
+
+</body>
+
+
+</html>
