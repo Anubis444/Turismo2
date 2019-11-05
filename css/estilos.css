@@ -16,6 +16,8 @@ header{
     min-height: 30px;
     border-bottom: 5px solid red;
 }
+
+
 #marca img {
     
     position: relative;
@@ -152,7 +154,8 @@ body {
 aside#Lateral{
     float: right;
     width: 30%;
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 .oscuro{
     padding: 15px;
