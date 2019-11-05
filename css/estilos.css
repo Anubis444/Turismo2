@@ -147,8 +147,10 @@ body {
 	color:#fff;
 	text-decoration:none;
 	display:inline-block;
-	padding:13.5px 20px;
+    padding:13.5px 20px;
+    
 }
+ /* redes */
 #facebook a{
 	background: #3b5998;
 	padding: 10px 25px;
@@ -185,9 +187,8 @@ body {
 #instagram a:hover{
 	background: #000;
 	padding: 10px 50px;
-	float:right;
 }
-
+ /* redes */
 /* lateral */
 aside#Lateral{
     float: right;
@@ -207,3 +208,10 @@ article#main.col{
     float: left;
     width: 65%;
 }
+/* titulo*/
+title{
+ float:right;
+position:relative;
+ 
+}
+/* titulo*/
