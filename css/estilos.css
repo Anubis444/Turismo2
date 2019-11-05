@@ -147,3 +147,22 @@ body {
 	padding:13.5px 20px;
 	float:right;
 }
+
+/* lateral */
+aside#Lateral{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+.oscuro{
+    padding: 15px;
+    background-color: #353535;
+    color: #fff;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+/* maincol*/
+article#main.col{
+    float: left;
+    width: 65%;
+}
