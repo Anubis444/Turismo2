@@ -2,19 +2,67 @@
 <html>
 <head>
     <title> Yalisama </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="descripcion" content="viaja mas">
     <meta name="keywords" content="diseño web,posicionamiento web">
     <meta name="author" content="ingeniros">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link rel="stylesheet"  href="fonts.css">
     <link rel="icon" href="img/yalisama.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/51fe6c041f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     
     <header>
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand">Ingresar</a>
+                <div class="form-inline">
+                    <input id="email2" type="email" placeholder="ingrese email" class="form-control form-control-sm mr-sm-2">
+                    <input id="contraseña2" type="Password" placeholder="ingrese contraseña" class="form-control form-control-sm mr-sm-2">
+                    <button type="button" class="btn btn-info btn-sm" onclick="ingresar()">Acceder</button>
+                    <button type="button" class="btn btn-danger btn-sm ml-2" data-toggle="modal" data-target="#exampleModal">Registrar</button>
+                </div>
+              </nav>
+      
+        </div>
+        
+      
+         <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registrar usuario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <input id="email" type="email" placeholder="ingrese email" class="form-control">
+                  <div class=mt-2></div>
+                  <input id="contraseña" type="Password" placeholder="ingrese contraseña" class="form-control">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="registrar()">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+          
+      
+          <div id= "contenido">
+           
+          </div>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="login.js"></script>
         
 
               
@@ -45,11 +93,24 @@
         
 
     </header>
+    <div class="red">
+        <div id="facebook"><a href="#"class="fab fa-facebook-f -fa 2x"></a></div>
+        <div id="gmail"><a href="#"class="fab fa-google -fa 2x"></a></div>
+        <div id="instagram"><a href="#"class="fab fa-instagram -fa 2x"></a></div>
+        
+      </div>
     <div class="main">
         <div class="slides">
-            <img src="http://lorempixel.com/1600/900/city/1" alt="">
-            <img src="http://lorempixel.com/1600/900/city/2" alt="">
-            <img src="http://lorempixel.com/1600/900/city/3" alt="">
+            <img src="img/1.jpeg" alt="">
+            <img src="img/2.jpeg  " alt="">
+            <img src="img/3.jpeg " alt="">
+            <img src="img/4.jpeg " alt="">
+            <img src="img/5.jpeg" alt="">
+            <img src="img/8.jpeg " alt="">
+            <img src="img/9.jpg " alt="">
+            <img src="img/10.jpg  " alt="">
+            <img src="img/12.jpg " alt="">
+            <img src="img/13.jpg " alt="">
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -63,7 +124,7 @@
         // You cannot use your own buttons. Sorry.
       effect: "slide",
         // [string] Can be either "slide" or "fade".
-      interval: 3000,
+      interval: 2000,
         // [number] Time spent on each slide in milliseconds.
       auto: true,
         // [boolean] Start playing the slideshow on load.
