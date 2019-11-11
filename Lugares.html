@@ -91,7 +91,7 @@
 
 
 <!-- Head -->
-        <!-- Redes -->
+       <!-- Redes -->
 
 
         <div class="red">
@@ -102,49 +102,42 @@
             </div>
         
               
-                <!-- Redes -->
-                <table width="100%" border="0" cellpadding="2">
-                        <tr>
-                            <td>
-                                    <img src="img/Musea de arte-1.jpg" width="600px" height="300px"/>
-                            </td>
-                            <h1>Museo de arte moderno</h1>
-                            <td>
-                                    <img src="img/Musea de arte-2.jpg"  width="600px" height="300px"/>
-                            </td>
-                            
-                        </tr>
-                    <table>
-                            <table width="100%" border="0" cellpadding="2">
-                                    <tr>
-                                        <td>
-                                                <img src="img/Museo Naval.jpg" width="600px" height="300px"/>
-                                        </td>
-                                        <h1>Museo Naval del caribe</h1>
-                                       
-                                    </tr>
-                                <table>
-                    <table>
-                            <table width="100%" border="0" cellpadding="2">
-                                    <tr>
-                                        <td>
-                                                <img src="img/Museo mio.jpg" width="600px" height="300px"/>
-                                        </td>
-                                        <h1>Museo de san pedro claver</h1>
-                                       
-                                    </tr>
-                                <table>
-                <table>
-                        <table width="100%" border="0" cellpadding="2">
-                                <tr>
-                                    <td>
-                                            <img src="img/Museo H.jpg" width="500px" height="600px"/>
-                                    </td>
-                                    <h1>Museo Historico de cartagena</h1>
-                                   
-                                </tr>
-                            <table>                
+       <!-- Redes -->
 
+       <!-- Filas de "lugares" -->
+
+       <div class="main">
+          <h1>Museo de arte moderno</h1>
+          <div class="slides">
+              <img src="img/Musea de arte-1.jpg" width="600px" height="600px"/>
+              <img src="img/Musea de arte-2.jpg"  width="600px" height="600px"/>
+          </div>
+
+
+          <h1>Museo Naval del caribe</h1>
+          <div class="slides">
+              <img src="img/Museo Naval.jpg" width="600px" height="600px"/>
+              <img src="img/Museo Naval 2.jpg" width="600px" height="600px"/>
+              <img src="img/Museo Naval 3.jpg" width="600px" height="600px"/>
+          </div>
+
+
+          <h1>Museo de san Pedro claver</h1>
+          <div class="slides">
+              <img src="img/Museo mio.jpg" width="600px" height="600px"/>
+              <img src="img/Museo mio 2.jpg"width="600px" height="600px"/>
+              <img src="img/Museo mio 3.jpg" width="600px" height="600px"/>
+          </div>
+
+          <h1>Museo Historico de cartagena</h1>
+          <div class="slides">
+              <img src="img/Museo H.jpg" width="600px" height="600px"/>
+              <img src="img/Museo H 2.jpg"width="600px" height="600px"/>
+              <img src="img/Museo H 3.jpg" width="600px" height="600px"/>
+          </div>
+
+
+      </div>
                 <table width="100%" border="0" cellpadding="2">
                         <tr>
                             <td>
@@ -220,7 +213,7 @@
                           </tr>
                      <table>
                 
-    <table>
+           <table>
             <table width="100%" border="0" cellpadding="2">
                 <tr>
                  <td>
@@ -235,6 +228,32 @@
             </td>
               </tr>
          <table>
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+            <script src="js/jquery.slides.js"></script>
+            <script>
+                $(function(){
+          $(".slides").slidesjs({
+            play: {
+              active: true,
+                // [boolean] Generate the play and stop buttons.
+                // You cannot use your own buttons. Sorry.
+              effect: "slide",
+                // [string] Can be either "slide" or "fade".
+              interval: 4000,
+                // [number] Time spent on each slide in milliseconds.
+              auto: true,
+                // [boolean] Start playing the slideshow on load.
+              swap: true,
+                // [boolean] show/hide stop and play buttons
+              pauseOnHover: false,
+                // [boolean] pause a playing slideshow on hover
+              restartDelay: 2500
+                // [number] restart delay on inactive slideshow
+            }
+          });
+        });
+            </script>
+           <!-- Filas de "lugares" -->
                                             
 </body>
 </html>
