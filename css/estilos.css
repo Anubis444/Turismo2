@@ -203,16 +203,39 @@ aside#Lateral{
     color: #fff;
     margin-top: 10px;
     margin-top: 10px;
+  
+   
 }
-/* maincol*/
-article#main.col{
-    float: left;
-    width: 65%;
-}
+
+
 /* titulo*/
 title{
  float:right;
 position:relative;
  
 }
-/* titulo*/
+
+.mision{
+    padding: 15px;
+    background-color:rgb(121, 3, 3);
+    color: #fff;
+    margin-top: 10px;
+    margin-top: 10px;
+    float: right;
+width: 50%;
+}
+
+aside#derecha{
+    float: right;
+    width: 50%;
+    
+}
+.vision{
+    padding: 15px;
+    background-color:blue;
+    color: #fff;
+    margin-top: 10px;
+    margin-top: 10px;
+   height: 10%;
+
+}
