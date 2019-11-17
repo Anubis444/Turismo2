@@ -239,3 +239,75 @@ aside#derecha{
    height: 10%;
 
 }
+
+/* Boton ingreso*/
+.boton-i {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 25px;
+    border: 0px solid #ffffff;
+    border-radius: 7px;
+    background: #d12727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d12727), to(#800202));
+    background: -moz-linear-gradient(top, #d12727, #800202);
+    background: linear-gradient(to bottom, #d12727, #800202);
+    font: normal normal normal 18px arial;
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+    .boton-i:hover,
+    .boton-i:focus {
+        background: #fb2f2f;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fb2f2f), to(#9a0202));
+        background: -moz-linear-gradient(top, #fb2f2f, #9a0202);
+        background: linear-gradient(to bottom, #fb2f2f, #9a0202);
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .boton-i:active {
+        background: #7d1717;
+        background: -webkit-gradient(linear, left top, left bottom, from(#7d1717), to(#800202));
+        background: -moz-linear-gradient(top, #7d1717, #800202);
+        background: linear-gradient(to bottom, #7d1717, #800202);
+    }
+    
+/* Boton ingreso*/
+
+
+/* Boton registro*/
+
+.boton-r {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 25px;
+    border: 0px solid #ffffff;
+    border-radius: 7px;
+    background: #d12727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d12727), to(#800202));
+    background: -moz-linear-gradient(top, #d12727, #800202);
+    background: linear-gradient(to bottom, #d12727, #800202); 
+    font: normal normal normal 18px arial;
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+    .boton-r:hover,
+    .boton-r:focus {
+        background: #fb2f2f;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fb2f2f), to(#9a0202));
+        background: -moz-linear-gradient(top, #fb2f2f, #9a0202);
+        background: linear-gradient(to bottom, #fb2f2f, #9a0202);
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .boton-r:active {
+        background: #7d1717;
+        background: -webkit-gradient(linear, left top, left bottom, from(#7d1717), to(#800202));
+        background: -moz-linear-gradient(top, #7d1717, #800202);
+        background: linear-gradient(to bottom, #7d1717, #800202);
+    }
+    
+/* Boton registro*/
