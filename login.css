@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background: coral;
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+#marca img {
+    
+    position: relative;
+    top: 30px; /* ajustar los valores para mover la imagen */
+    left: 600px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    
+}
+h1{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    background:  orange;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: orange;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+.regresar {
+    float: right;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 18px;
+    border-radius: 8px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#db6729));
+    background: -moz-linear-gradient(top, #ff4a4a, #db6729);
+    background: linear-gradient(to bottom, #ff4a4a, #db6729);
+    -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+    box-shadow: #ff5959 0px 0px 40px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 12px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.regresar:hover,
+.regresar:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#ff7c31));
+    background: -moz-linear-gradient(top, #ff5959, #ff7c31);
+    background: linear-gradient(to bottom, #ff5959, #ff7c31);
+    color: #ffffff;
+    text-decoration: none;
+}
+.regresar:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#db6729));
+    background: -moz-linear-gradient(top, #982727, #db6729);
+    background: linear-gradient(to bottom, #982727, #db6729);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
