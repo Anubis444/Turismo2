@@ -152,9 +152,28 @@ body {
     
 }
  /* redes */
+
+ .red{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;
+}
+#twitter a{
+	background: #00acee;
+	padding: 10px 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: rgb(0, 0, 0);
+	padding: 10px 50px;
+}
 #facebook a{
 	background: #3b5998;
-	padding: 10px 25px;
+	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
 	width: 55px;
@@ -164,21 +183,9 @@ body {
 	background: rgb(0, 0, 0);
 	padding: 10px 50px;
 }
-#gmail a{
-	background: #bb0000;
-	padding: 10px 20px;
-	color: #fff;
-	text-decoration: none;
-	width: 55px;
-	transition: all .4s ease;
-}
-#gmail a:hover{
-	background: rgb(0, 0, 0);
-	padding: 10px 50px;
-}
 
 #instagram a{
-	background: #e700e7;
+	background: #E4405F;
 	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
